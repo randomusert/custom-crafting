@@ -1,0 +1,7 @@
+{
+    "name": "Custom Crafting Guide",
+    "landing_text": "welcome to the custom crafting guidebook",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": true
+}

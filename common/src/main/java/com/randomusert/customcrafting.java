@@ -7,6 +7,7 @@ public final class customcrafting {
 
     public static void init() {
         // Write common init code here.
+        guidebook.init();
         resources.init();
     }
 }

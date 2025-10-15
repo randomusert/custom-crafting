@@ -7,8 +7,8 @@ import net.minecraft.world.entity.player.Player;
 import vazkii.patchouli.api.*;
 
 
-public class Patchouli {
-    public static void openBook(ResourceLocation bookId, Player player) {
+public class PatchouliCompatImpl {
+    public static void openBookImpl(ResourceLocation bookId, Player player) {
         // NO-OP
         PatchouliAPI.get().openBookGUI(bookId);
     }
