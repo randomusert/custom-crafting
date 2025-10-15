@@ -7,6 +7,7 @@ import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item.Properties;
 
 
@@ -17,7 +18,7 @@ public class resources {
 
 
     public static final RegistrySupplier<Item> MINECRAFTIUM = ITEMS.register("minecraftium", 
-        () -> new Item(new Properties().stacksTo(64)));
+        () -> new Item(new Properties().stacksTo(90).rarity(Rarity.EPIC)));
 
     public static void init() {
         ITEMS.register();

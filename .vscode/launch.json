@@ -1,0 +1,19 @@
+{
+    "version": "1",
+    "configurations": [
+        {
+            "name": "Launch forge dev client",
+            "command": "../gradlew :forge:runClient",
+            "type": "gradle",
+            "request": "launch"
+
+        },
+        {
+            "name": "Launch fabric dev client",
+            "command": "../gradlew :fabric:runClient",
+            "type": "gradle",
+            "request": "launch"
+        }
+
+    ]
+}
